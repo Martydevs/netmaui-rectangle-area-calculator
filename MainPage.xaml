@@ -10,7 +10,7 @@
             VerticalOptions="Center">
 
             <Frame>
-                <Label Text="Área de un rectangulo"
+                <Label Text="Área de un Triángulo"
                        FontAttributes="Bold"
                        FontSize="32" />
             </Frame>

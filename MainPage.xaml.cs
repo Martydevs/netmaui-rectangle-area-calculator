@@ -13,7 +13,7 @@ public partial class MainPage : ContentPage
 		{
 			var localAltura = double.Parse(Altura.Text);
 			var localBase = double.Parse(Base.Text);
-			var localArea = localAltura * localBase;
+			var localArea = (localAltura * localBase) / 2;
 
 			Resultado.Text = localArea.ToString();
 		} else
